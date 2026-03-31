@@ -45,6 +45,7 @@
             dataGridView1.RowHeadersWidth = 62;
             dataGridView1.Size = new Size(360, 225);
             dataGridView1.TabIndex = 0;
+            dataGridView1.CellContentClick += dataGridView1_CellContentClick;
             // 
             // label1
             // 
@@ -54,6 +55,7 @@
             label1.Size = new Size(59, 25);
             label1.TabIndex = 1;
             label1.Text = "label1";
+            label1.Click += label1_Click;
             // 
             // txtHoTen
             // 
@@ -61,6 +63,7 @@
             txtHoTen.Name = "txtHoTen";
             txtHoTen.Size = new Size(150, 31);
             txtHoTen.TabIndex = 2;
+            txtHoTen.TextChanged += txtHoTen_TextChanged;
             // 
             // button1
             // 
@@ -70,6 +73,7 @@
             button1.TabIndex = 3;
             button1.Text = "Thêm";
             button1.UseVisualStyleBackColor = true;
+            button1.Click += button1_Click;
             // 
             // button2
             // 
@@ -79,6 +83,7 @@
             button2.TabIndex = 4;
             button2.Text = "Sửa";
             button2.UseVisualStyleBackColor = true;
+            button2.Click += button2_Click;
             // 
             // button3
             // 
@@ -88,6 +93,7 @@
             button3.TabIndex = 5;
             button3.Text = "Xoá";
             button3.UseVisualStyleBackColor = true;
+            button3.Click += button3_Click;
             // 
             // Form1
             // 
