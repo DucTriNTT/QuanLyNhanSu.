@@ -20,12 +20,3 @@
 • Cơ sở dữ liệu: SQL Server LocalDB (sử dụng database hệ thống master để tối ưu quyền truy cập).
 
 • Thư viện: Microsoft.Data.SqlClient hoặc System.Data.SqlClient.
-
-🚀 Hướng dẫn cài đặt & Chạy
-• Clone dự án: git clone https://github.com/username/QuanLyNhanSu.git
-
-• Mở bằng Visual Studio: Mở file .sln.
-
-• Cấu hình Database: Ứng dụng sử dụng (LocalDB)\MSSQLLocalDB. Đảm bảo bạn đã cài đặt thành phần này trong Visual Studio Installer.
-
-• Nhấn F5: App sẽ tự động tạo bảng và nạp dữ liệu mẫu để bạn trải nghiệm ngay.
